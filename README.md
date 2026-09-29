@@ -10,4 +10,4 @@ Plain static site, no build step:
 - `img/`, `headshot.png` — photos.
 
 To preview locally: `python3 -m http.server` in this folder, then open http://localhost:8000.
-To deploy: `vercel --prod` from this folder.
+To deploy: push to `main` on GitHub. Vercel builds and publishes it automatically.
